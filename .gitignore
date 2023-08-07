@@ -4,6 +4,7 @@
 *.so
 .idea/
 .vscode/
+vendor
 
 # Folders
 _obj
@@ -27,3 +28,5 @@ _testmain.go
 
 gojenkins
 go-jenkins
+/vendor/
+/vendor/
