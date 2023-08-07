@@ -434,7 +434,7 @@ func (j *Job) InvokeSimple(ctx context.Context, params map[string]string) (int64
 	if err != nil {
 		return 0, err
 	}
-	if len(parameters) > 0 {
+	if len(parameters) > 0 || len(params) > 0 {
 		endpoint = "/buildWithParameters"
 	}
 	data := url.Values{}
